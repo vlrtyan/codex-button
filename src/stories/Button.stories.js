@@ -1,7 +1,6 @@
 import SVG from "react-inlinesvg";
 import Button from "./Button.jsx";
 import { IconPlus, IconBrackets } from "@codexteam/icons";
-// import { Meta } from "@storybook/blocks";
 
 export default {
   title: "Button",
@@ -38,7 +37,7 @@ const defaultArgs = {
   isDisabled: false,
 };
 
-export const Default = {
+export const None = {
   args: {
     ...defaultArgs,
     children: <span className="button__label">Button</span>,
@@ -47,7 +46,7 @@ export const Default = {
 
 export const Leading = {
   args: {
-    ...Default.args,
+    ...defaultArgs,
     iconType: "leading",
     children: (
       <>
@@ -60,7 +59,7 @@ export const Leading = {
 
 export const Trailing = {
   args: {
-    ...Default.args,
+    ...defaultArgs,
     iconType: "trailing",
     children: (
       <>
@@ -73,7 +72,7 @@ export const Trailing = {
 
 export const LeadingTrailing = {
   args: {
-    ...Default.args,
+    ...defaultArgs,
     iconType: "leading-trailing",
     children: (
       <>
@@ -87,7 +86,7 @@ export const LeadingTrailing = {
 
 export const Standalone = {
   args: {
-    ...Default.args,
+    ...defaultArgs,
     iconType: "standalone",
     children: <SVG className="button__icon" src={IconPlus} />,
   },
