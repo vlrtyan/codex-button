@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Source Sans 3';
+    font-style:  normal;
+    font-weight: 500;
+    src: url(./SourceSans3-Medium.woff2) format("woff2"),
+         url(./SourceSans3-Medium.woff) format("woff");
+  }
