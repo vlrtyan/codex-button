@@ -1,0 +1,6 @@
+{
+  "no-inline-html": {
+    "allowed_elements": ["br"]
+  },
+  "MD013": { "line_length": 200 }
+}
